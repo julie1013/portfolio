@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Mountains+of+Christmas);
+$darker-translucent-black: rgba(0, 0, 0, .8);
+$translucent-black: rgba(0, 0, 0, .5);
+$black: #000;
+$white: #fff;
+
+.container {
+  background-color: $translucent-black;
+  border: 2px solid $white;
+  border-radius: 20px;
+  box-shadow: 7px 7px 7px $black;
+  height: 200px;
+  margin-top: -30px;
+  padding-top: 25px;
+  text-align: center;
+  text-shadow: 0 5px 3px $black;
+  width: 40%;
+}
+
+.name {
+  font-size: 70px;
+  text-align: center;
+  width: 50%;
+}
+
+
+.front-end {
+  font-size: 35px;
+  height: 100px;
+  margin-top: -25px;
+  padding-top: 20px;
+  text-align: center;
+  width: 40%;
+}
+
+.about-me-div {
+  background-color: $darker-translucent-black;
+  border-radius: 20px;
+  color: $white;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 3px 0;
+  text-align: center;
+  text-shadow: none;
+  width: 60%;
+}

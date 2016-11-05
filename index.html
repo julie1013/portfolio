@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Julie Esris - Front-End Web Developer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="dependencies.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script></head>
+    <body>
+        <div id="wrapper">
+        <div class="overlay"></div>
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand-name"><a href="#sidebar-brand">Julie Esris</a></li>
+                <li><a href="#index">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li id="email"><a href="mailto:julie@julie-esris.com?subject=I%20have%20just%20checked%20out%20your%20code%20portfolio&body=">Contact</a>
+                </li>
+                <li id="linkedIn"><a href="https://www.linkedin.com/in/jesris" target="_blank">LinkedIn</a>
+                <li id="gitHub"><a href="https://github.com/julie1013" target="_blank">GitHub</a>
+                </li>
+            </ul>
+            <div class="photo">
+              <img src="../assets/images/me.jpg" alt="Me">
+            </div>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <span class="name">Julie Esris</span><br />
+                <span class="front-end">Front-End Web Developer</span>
+            </div>
+            <div class="projects-view hidden" id="projects">
+                <div id="project1" class="project-thumbnail">
+                <a href="https://julie1013.github.io/tic-tac-toe-template/" target="_blank">
+                  <img src="../assets/images/cat.png" alt="cat">
+                </a>
+                Tic-CAT-Toe
+            </div>
+              <div id="project2" class="project-thumbnail">
+                <a href="https://julie1013.github.io/booksucks-front-end/" target="_blank">
+                  <img src="../assets/images/book.png" alt="book">
+                </a>
+                This Book Sucks!
+              </div>
+              <div id="project3" class="project-thumbnail">
+                <a href="https://synergisticdeepities.github.io/desert-island-client/" target="_blank">
+                  <img src="../assets/images/bunny.jpg" alt="bunny">
+                </a>
+                Desert Island
+              </div>
+              <div id="project4" class="project-thumbnail">
+                <img src="../assets/images/coming-soon.jpg" alt="coming-soon">
+                Coming Soon!
+              </div>
+            </div>
+            <div id="about" class="about-me-div hidden">
+              <h1>About Me</h1>
+              <p>I have always had a passion for creating, as well as a desire to
+                learn about new ways to create. For my entire life,
+                my main passions have been drawing and writing.
+                Most recently, I have added web development to this list of passions.
+                My recently-acquired coding skills through classes at
+                General Assembly Boston -- which includes their
+                Web Development Immersive -- have helped create the perfect
+                marriage with my drawing, photography, and film skills.</p>
+            <p>Let me help you make a unique app with a creative twist!</p>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+      </div>
+  <!-- /#wrapper -->
+    </body>
+</html>
