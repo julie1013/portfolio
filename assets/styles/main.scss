@@ -47,7 +47,7 @@ p {
   background-color: $darker-translucent-black;
   border: 2px solid $white;
   border-radius: 30px;
-  height: 3000px;
+  height: 3200px;
   margin: 0 auto;
   margin-top: 50px;
   padding-bottom: 300px;
@@ -105,6 +105,10 @@ p {
 
 .description:nth-child(8) {
   height: 170px;
+}
+
+.description:nth-child(10) {
+  height: 200px;
 }
 
 .description p {
