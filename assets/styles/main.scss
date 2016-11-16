@@ -1,5 +1,6 @@
 $black: #000;
 $darker-translucent-black: rgba(0, 0, 0, .8);
+$gray: #555;
 $white: #fff;
 
 body {
@@ -62,8 +63,8 @@ p {
   font-size: 30px;
   height: 235px;
   margin: 0 auto;
+  margin-bottom: 25px;
   margin-left: 100px;
-  margin-bottom: 500px;
   text-align: center;
   text-shadow: 0 5px 3px $black;
   width: 200px;
@@ -84,6 +85,30 @@ p {
   position: relative;
   text-shadow: 0 5px 3px $black;
   top: -10px;
+}
+
+.description {
+  background: $white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 8px $gray;
+  color: $black;
+  font-family: arial;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-right: 90px;
+  margin-top: 70px;
+  padding: 10px;
+  text-align: center;
+  width: 70%;
+}
+
+.description:nth-child(8) {
+  height: 170px;
+}
+
+.description p {
+  font-size: 16px;
 }
 
 .hidden {
